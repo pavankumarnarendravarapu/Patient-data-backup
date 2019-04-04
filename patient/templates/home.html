@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delta hospital</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css')}}">
+</head>
+<body>
+<ul>
+  <li><a class="active">DELTA HOSPITAL</a></li>
+  <li style="float:right"><a href="{{ url_for('register')}}">Register</a></li>
+  <li style="float:right"><a href="{{ url_for('login')}}">Login</a></li>
+</ul>
+<img src="{{url_for('static', filename='dh.png')}}">
+<div class="d">
+	<button class="btn home">
+	<a href="{{ url_for('home')}}">HOME </a>
+	</button>&nbsp&nbsp&nbsp&nbsp
+	<button class="btn about ">
+	<a href="{{ url_for('about')}}">ABOUT </a>
+	</button>&nbsp&nbsp&nbsp&nbsp
+	<button class="btn services">
+	<a href="{{ url_for('services')}}">SERVICES </a>
+	</button>&nbsp&nbsp&nbsp&nbsp
+	<button class="btn oh">
+	<a href="{{ url_for('openinghours')}}">OPENING HOURS </a>
+	</button>&nbsp&nbsp&nbsp&nbsp
+	<button class="btn contact">
+	<a href="{{ url_for('contact')}}">CONTACT </a>
+	</button>&nbsp&nbsp&nbsp&nbsp
+</div>
+<div class="background">
+  <div class="transbox">
+    <p >YOUR HEALTH OUR CARE...</p>
+  </div>
+</div>
+<div class="link">
+<h1>OUR SPECIALITIES</h1>
+</div>
+<div class="spln">
+	<button class="button bt1">
+	<a style="color:black" href="https://en.wikipedia.org/wiki/Emergency_department">Accident and emergency (A&E)</a>
+	 </button>
+	 <button class="button bt2">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Cardiology">cardiology</a>
+     </button>
+     <button class="button bt3">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Dermatology">Dermatology</a>
+     </button>
+     <button class="button bt4">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Anesthetic">Anaesthetics</a>
+     </button>
+     <button class="button bt5">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Medical_imaging">Diagnostic imaging</a>
+     </button>
+     <button class="button bt6">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Diabetes_mellitus">Diabetes mellitus</a>
+     </button>
+     <br>
+      <br>
+     <br>
+     <button class="button bt7">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Otorhinolaryngology">Ear nose and throat (ENT)</a>
+     </button>
+     <button class="button bt8">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Physical_therapy">Physiotherapy</a></a>
+     </button>
+     <button class="button bt9">
+    <a style="color:black" href="https://en.wikipedia.org/wiki/Gynaecology">gynacology</a>
+    </button>
+</div>
+<div class="des">
+<h1>OUR BEST DOCTORS</h1>
+<hr>
+</div>
+<div class="row" style="text-align: center;">
+  <div class="column">
+    <img src="{{url_for('static', filename='31415.jpg')}}" style="width:20%"; height="50%">
+    <div class="kn" style="margin-left: 45%">
+    	<a href="http://www.dcmhfasthealth.com/staff/bio.php?doc_id=31415" ><strong>Douglas</strong></a>
+    </div>
+  </div>
+  <div class="column">
+    <img src="{{url_for('static', filename='31426.jpg')}}" style="width:20%"; height="50%">
+    <div class="kn" style="margin-left: 45%">
+    	<a href="http://www.dcmhfasthealth.com/staff/bio.php?doc_id=31426" ><strong>Hugh</strong></a>
+    </div>
+  </div>
+  <div class="column">
+   <img src="{{url_for('static', filename='31451.jpg')}}" style="width:20%"; height="50%">
+   <div class="kn" style="margin-left: 45%">
+    	<a href="http://www.dcmhfasthealth.com/staff/bio.php?doc_id=31451" ><strong>Patrick</strong></a>
+    </div>
+  </div>
+   <div class="column">
+   <img src="{{url_for('static', filename='31427.jpg')}}" style="width:20%"; height="50%">
+   <div class="kn" style="margin-left: 45%">
+    	<a href="http://www.dcmhfasthealth.com/staff/bio.php?doc_id=31427" ><strong>Christopher</strong></a>
+    </div>
+  </div>
+</div>
+<footer>
+	<div class="right">
+  <p>&#169;   Delta Hospital.com inc. All rights reserved &nbsp&nbsp&nbsp&nbsp </p>
+</div>
+<div style="text-align: left;">
+  <p>follow us-: deltahospitals12@gmail.com</p>
+  </div>
+</footer>
+</body>
+</html>

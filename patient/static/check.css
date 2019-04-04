@@ -1,0 +1,38 @@
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.home {
+	border-radius: 12px;
+}
+img{
+	width: 8%;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+h3{
+	margin-left: 37%;
+	margin-top: 0px;
+}
+body{
+	margin: 0 auto;
+	font-size:135%;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}

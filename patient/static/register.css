@@ -1,0 +1,35 @@
+body{
+	margin: 0 auto;
+	font-size:135%;
+	background-repeat: no-repeat;
+	background-image :url("ki.jpg");
+	background-size: cover;
+}
+.heading{
+	width: 23%;
+	color: white;
+	text-align: center;
+	padding: 6px;
+	margin-left: 60%;
+	margin-top: 8%;
+}
+.data {
+	text-align: left;
+}
+.center{
+	margin-left: 65%;
+	margin-top: 0%;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.home {border-radius: 12px;}

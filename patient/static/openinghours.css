@@ -1,0 +1,17 @@
+.back{
+	text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+body{
+	margin: 0 auto;
+	font-size:135%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

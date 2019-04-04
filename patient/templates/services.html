@@ -1,0 +1,31 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+</head>
+    	<title>SERVICES</title>
+</head>
+<body background="{{ url_for('static', filename='ser.jpg') }}" style="background-size: cover;">
+	<div class="back" style="text-align: center;">
+    	<h1> Welcome to Delta Hospital</h1>
+    </div>
+    <img src="{{url_for('static', filename='dh.png')}}" style="width: 8%; height: 20%; margin-left: 0%">
+    <h3 style="margin-top: 0%">DELTA HOSPITAL</h3>
+    <br>
+    <br>
+	<h3>Delta Hospital provides general medical and surgical care for
+		inpatient, outpatient, and emergency room patients, and participates 
+		in the Medicare and Medicaid programs.<br>Emergency room services are available 
+		on a 24-hour per day, seven-day per week basis.</h3><br>
+ 	<div>
+ 		<h3>
+	<a href="{{url_for('dia')}}">Dietitians</a><br><br>
+	<a href="{{url_for('card')}}">Cardiac and Pulmonary Rehabilitation</a><br><br>
+	<a href="{{url_for('imp')}}">Inpatient and Outpatient Surgery</a><br><br>
+	<a href="{{url_for('eme')}}">Emergency Services</a><br><br>
+	<a href="{{url_for('int')}}">Intensive Care Unit</a><br><br>
+	<a href="{{url_for('med')}}">Medical Imaging</a><br>
+	</h3>
+    </div>
+    <br>
+</body>
+</html>

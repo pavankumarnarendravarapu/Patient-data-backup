@@ -1,0 +1,185 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+img{
+	width: 8%;
+	margin-left: 45%;
+	margin-top: 1%;
+}
+.d{
+	text-align: center;
+}
+div.background {
+  background: url(abd.jpg);
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  margin-top: 1%;
+  background-size: cover;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.link{
+	text-align: center;
+	margin-top: 3%;
+}
+.spln{
+	text-align: center;
+}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
+
+.bt1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt4:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt5:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt6:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt7:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt8:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bt9:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.home {
+  color: green;
+}
+.home:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.about{
+  color: dodgerblue;
+}
+.about:hover {
+  background: #2196F3;
+  color: white;
+}
+.services {
+  color: orange;
+}
+.services:hover {
+  background: #ff9800;
+  color: white;
+}
+.oh {
+  color: red;
+}
+
+.oh:hover {
+  background: #f44336;
+  color: white;
+}
+.contact {
+  color: black;
+}
+.contact:hover {
+  background: #e7e7e7;
+}
+.des{
+	text-align: center;
+	margin-top: 3%;
+}
+*{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px; 
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.kn{
+  text-align: center;
+  margin-left: 40px;
+}
+footer {
+  background-color: #333;
+  padding: 2px;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 2%;
+}
+.right{
+	float: right;
+}

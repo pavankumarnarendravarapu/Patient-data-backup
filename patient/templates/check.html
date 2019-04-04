@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHECK</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='check.css')}}">
+</head>
+<body background="{{ url_for('static', filename='hspt.jpg') }}">
+<div class="test">
+  <div style="float: right;">
+    <button class="button home"><a href="{{url_for('home')}}">Logout</a></button>
+  </div>
+  
+</div>
+<img src="{{url_for('static', filename='dh.png')}}">
+<h3>DELTA HOSPITAL</h3>
+<h2 style=" color: #16A085">PATIENT DATA<br><br> </h2>
+	<form action="{{url_for('check')}}" method="POST">
+		<input type="text" placeholder="Search.." name="name" required>
+		<input type="submit" value="search">
+	
+<div class="Search">
+
+</div>
+<table style="width: 50%">
+	<tr style="color: darkblue">
+		<th>name</th>
+		<th>age</th>
+		<th>disease</th>
+		<th>health_cond</th>
+		<th>bill</th>
+		<th>type_of_drug</th>
+		<th>drug_quant</th>
+		<th>cost</th>
+		<th>village</th>
+		<th>phone</th>
+		<th>address</th>
+	</tr>
+	{% if pat == "no data" %}
+		{{pat}}
+	{% else %}
+	<tr>
+		<td>{{pat.name}}</td>
+		<td>{{pat.age}}</td>
+		<td>{{pat.disease}}</td>
+		<td>{{pat.health_cond}}</td>
+		<td>{{pat.bill}}</td>
+		<td>{{pat.type_of_drug}}</td>
+		<td>{{pat.drug_quant}}</td>
+		<td>{{pat.cost}}</td>
+		<td>{{pat.village}}</td>
+		<td>{{pat.phone}}</td>
+		<td>{{pat.address}}</td>
+	</tr>
+	{% endif %}
+</table>
+<p>
+	New to registration? <a style="color:gray"href="{{url_for('data')}}">&nbsp&nbspFill form</a>
+</p>
+</form>
+</body>
+</html>

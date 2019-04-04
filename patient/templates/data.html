@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FILL DATA</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='data.css')}}">
+</head>
+<body background="{{ url_for('static', filename='76.jpg') }}">
+<div class="test">
+  <div style="float: right;">
+    <button class="button home"><a href="{{url_for('home')}}">Logout</a></button>
+  </div>
+</div>
+<img src="{{url_for('static', filename='dh.png')}}">
+<h3>DELTA HOSPITAL</h3>
+<div class="center" style="margin-left: 70%; margin-top: -4%">
+<h2 style=" color: #16A085">FILLING FORM</h2>
+	<form method="POST" action="{{url_for('data')}}">
+		<div class="data">
+			<label>name</label>
+			<br>
+			<input type="text" name="name"  required>
+		</div>
+		<div class="data">
+			<label>age</label>
+			<br>
+			<input type="text" name="age"  required>
+		</div>
+		<div class="data">
+			<label>disease</label>
+			<br>
+			<input type="text" name="disease"  required>
+		</div>
+		<div class="data">
+			<label>health_cond</label>
+			<br>
+			<input type="text" name="health_cond"  required>
+		</div>
+		<div class="data">
+			<label>bill</label>
+			<br>
+			<input type="text" name="bill"  required>
+		</div>
+		<div class="data">
+			<label>type_of_drug</label>
+			<br>
+			<input type="text" name="type_of_drug"  required>
+		</div>
+		<div class="data">
+			<label>drug_quant</label>
+			<br>
+			<input type="text" name="drug_quant"  required>
+		</div>
+		<div class="data">
+			<label>cost</label>
+			<br>
+			<input type="text" name="cost"  required>
+		</div>
+		<div class="data">
+			<label>village</label>
+			<br>
+			<input type="text" name="village"  required>
+		</div>
+		<div class="data">
+			<label>phone</label>
+			<br>
+			<input type="text" name="phone"  required>
+		</div>
+		<div class="data">
+			<label>address</label>
+			<br>
+			<input type="text" name="address"  required>
+		</div>
+		<div class="data">
+			<button class="button home" type="submit" name="Submit" class="butn">Submit</button>
+		</div>
+	</form>
+</div>
+</body>
+</html>
