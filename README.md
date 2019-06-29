@@ -5,7 +5,7 @@ By-: N.Pavan Kumar
 # Patient data backup
 
 ### Brief explaination-:
-> Our Web Application main agenda is to carrying the patients data, if they are already admitted in our hospital. The entire patient data is stored like diseases and patient information payment slips. We give treatment based on his Id get previous health checkup details
+> Our Web Application main agenda is to carrying the patients data, if they are already admitted in our hospital or not. The entire patient data is stored like diseases, patient information and payment slips. We give treatment based on his health condition. We check previous health checkup details, by these we finalised his health  condition.
  
 ### Install Libraries
  - pip install Flask 
